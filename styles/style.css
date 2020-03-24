@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin: 19px 16px;
+}
+
+.nav-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.svg-a {
+    width: 24px;
+}
+
+.svg-b {
+    width: 16px;
+}
+
+.div-search {
+    display: flex;
+}
+
+.span-search {
+    position: relative;
+    left: 31px;
+    top: 13px;
+    z-index: 1;
+}
+
+.svg-search-options {
+    fill: #a0a0a0;
+    width: 20px;
+    display: block;
+    visibility: hidden;
+}
+
+.google-logo {
+    margin: 4px 0 10px 0;
+    width: 92px;
+}
+
+.search-input {
+    position: relative;
+    margin: 1px 44px 10px 24px;
+    padding: 0 48px 1px 20px;
+    width: 692px;
+    height: 46px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    font-size: 16px;
+}
+
+.search-input:hover {
+    box-shadow: 0 1px 3px 2px #e5e5e5;
+    margin: 0 43px 9px 23px;
+    padding: 0 49px 2px 21px;
+    width: 694px;
+    height: 48px;
+}
+
+.search-input:focus {
+    margin: 0px 41px 9px -4px;
+    padding: 0 49px 2px 48px;
+    width: 721px;
+    height: 48px;
+    box-shadow: 0 1px 5px 2px #e5e5e5;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    position: absolute;
+    left: 132px;
+    top: 20px;
+    padding: 25px 49px 9px 49px;
+    width: 721px;
+    border-radius: 25px;
+    background: white;
+}
+
+/*TO DO: vertically center align text; grow width so that background reaches all the way; add icons; add "Report inappropriate predictions" text at the bottom;*/
+.link {
+    height: 31px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    cursor: default;
+}
+
+.link:hover {
+    background: #f0f0f0;
+}
+
+strong {
+    font-size: inherit;
+}
