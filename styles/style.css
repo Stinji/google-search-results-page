@@ -33,18 +33,68 @@
     display: flex;
 }
 
-.span-search {
+.magnifying-glass-div {
+    display: flex;
     position: relative;
+    flex-direction: column;
+    width: 20px;
+}
+
+.span-search {
+    position: absolute;
     left: 31px;
+    z-index: 2;
+}
+
+.span-search-a {
     top: 13px;
-    z-index: 1;
+    visibility: hidden;
+}
+
+.span-search-b {
+    top: 57px;
+    visibility: hidden;
+}
+
+.span-search-c {
+    top: 88px;
+    visibility: hidden;
+}
+
+.span-search-d {
+    top: 119px;
+    visibility: hidden;
+}
+
+.span-search-e {
+    top: 150px;
+    visibility: hidden;
+}
+
+.span-search-f {
+    top: 181px;
+    visibility: hidden;
+}
+
+.span-search-g {
+    top: 212px;
+    visibility: hidden;
+}
+
+.span-search-h {
+    top: 243px;
+    visibility: hidden;
+}
+
+.span-search-i {
+    top: 274px;
+    visibility: hidden;
 }
 
 .svg-search-options {
     fill: #a0a0a0;
     width: 20px;
     display: block;
-    visibility: hidden;
 }
 
 .google-logo {
@@ -78,7 +128,8 @@
     padding: 0 49px 2px 48px;
     width: 721px;
     height: 48px;
-    box-shadow: 0 1px 5px 2px #e5e5e5;
+    box-shadow: 0 1px 3px 2px #e5e5e5;
+    border-radius: 25px 25px 0 0;
 }
 
 .dropdown-content {
@@ -87,18 +138,37 @@
     visibility: hidden;
     position: absolute;
     left: 132px;
-    top: 20px;
-    padding: 25px 49px 9px 49px;
+    top: 65px;
+    padding: 5px 0 0;
     width: 721px;
-    border-radius: 25px;
+    border: 1px solid #e5e5e5;
+    border-top: transparent;
+    border-radius: 0 0 25px 25px;
     background: white;
+    box-shadow: 0 3px 3px 2px #e5e5e5;
+    z-index: 1;
 }
 
-/*TO DO: vertically center align text; grow width so that background reaches all the way; add icons; add "Report inappropriate predictions" text at the bottom;*/
+.dropdown-content::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 692px;
+    border-top: 1px solid #e5e5e5;
+    background: red;
+    z-index: 3;
+}
+
+/*add "Report inappropriate predictions" text at the bottom;*/
+
 .link {
+    padding: 0 48px;
+    background-clip: padding-box;
     height: 31px;
     text-decoration: none;
     font-size: 16px;
+    line-height: 31px;
     color: black;
     cursor: default;
 }
@@ -109,4 +179,14 @@
 
 strong {
     font-size: inherit;
+}
+
+.report {
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+    color: #949494;
+    align-self: flex-end;
+    margin: 4px 21px 3px 0;
+    letter-spacing: -0.15px;
 }
