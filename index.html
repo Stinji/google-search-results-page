@@ -8,7 +8,8 @@
 <body>
     <nav class="nav">
         <div class="nav-top">
-            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiSyoziy7PoAhUCKewKHRMAC6cQPAgH">
+            <a class="image-outline"
+                href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiSyoziy7PoAhUCKewKHRMAC6cQPAgH">
                 <img class="google-logo"
                     src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
                     alt="Google logo">
@@ -90,7 +91,7 @@
                         </span>
                     </div>
                     <div class="dropdown-content">
-                        <a class="link" focusable="true"
+                        <a class="link"
                             href="https://www.google.com/search?sxsrf=ALeKk03Sekg_vZJjCIRXTp4V-JqGGO1RzA%3A1585078358741&ei=VmB6Xp3dLM60kwXLiKD4Cg&q=best+way+to+create+a+website&oq=build+this+webpage&gs_l=psy-ab.1.0.0i71l8.0.0..2398397...0.98..0.0.0.......0......gws-wiz.eLZtn0KWl2k"><strong>best
                                 way to create a website</strong></a>
                         <a class="link"
@@ -117,26 +118,31 @@
                         <a class="report" href="#">Report inappropriate predictions</a>
                     </div>
                     <input id="search-input" class="search-input" type="text" name="search" value="build this webpage">
-                    <button class="search-button" type="button">
-                        <span>
-                            <svg class="svg-a svg-google-search" focusable="false" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-                                </path>
-                            </svg>
-                        </span>
-                    </button>
+                    <a
+                        href="https://www.google.com/search?client=ubuntu&hs=rht&channel=fs&sxsrf=ALeKk029m2ZSq4NF0qVKGhwehRtta-xnuQ%3A1585161946113&ei=2qZ7XrzABtD3kwXX6aXwDQ&q=build+this+webpage&oq=build+this+webpage&gs_l=psy-ab.12..0i71l8.0.0..292135...0.5..0.0.0.......0......gws-wiz.0to9zh9qQO0&ved=0ahUKEwi8lda1pLboAhXQ-6QKHdd0Cd4Q4dUDCAo">
+                        <button class="search-button" type="button">
+                            <span>
+                                <svg class="svg-a svg-google-search" focusable="false"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </button>
+                    </a>
                 </div>
             </form>
-            <span>
-                <svg class="svg-a svg-google-apps" focusable="false" viewBox="0 0 24 24">
-                    <path
-                        d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
-                    </path>
-                </svg>
-            </span>
-            <p>Sign in</p>
+            <div class="nav-top-right">
+                <span>
+                    <svg class="svg-a svg-google-apps" focusable="false" viewBox="0 0 24 24">
+                        <path
+                            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                        </path>
+                    </svg>
+                </span>
+                <a class="sign-in" href="#">Sign in</a>
+            </div>
         </div>
         <div class="nav-bottom">
             <span>

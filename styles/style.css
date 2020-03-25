@@ -97,6 +97,10 @@
     display: block;
 }
 
+.image-outline {
+    outline: none;
+}
+
 .google-logo {
     margin: 4px 0 10px 0;
     width: 92px;
@@ -160,8 +164,6 @@
     z-index: 3;
 }
 
-/*add "Report inappropriate predictions" text at the bottom;*/
-
 .link {
     padding: 0 48px;
     background-clip: padding-box;
@@ -189,4 +191,53 @@ strong {
     align-self: flex-end;
     margin: 4px 21px 3px 0;
     letter-spacing: -0.15px;
+}
+
+.report:hover {
+    text-decoration: underline;
+}
+
+.search-button {
+    position: relative;
+    top: 12px;
+    right: 93px;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+.svg-google-search {
+    fill: #4285F4;
+}
+
+.nav-top-right {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: auto;
+    right: 25px;
+}
+
+.svg-google-apps {
+    box-sizing: unset;
+    border-radius: 25px;
+    margin: 0 16px;
+    padding: 8px;
+    fill: #949494;
+}
+
+.svg-google-apps:hover {
+    background: #f3f3f3;
+    cursor: pointer;
+}
+
+.sign-in {
+    text-decoration: none;
+    outline: none;
+    padding: 10px 25px;
+    background: #4285F4;
+    border-radius: 5px;
+    color: white;
 }
