@@ -12,6 +12,10 @@
 *
 */
 
+body {
+    margin: 0;
+}
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,7 @@
 }
 
 .nav-top {
+    margin: 0 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,10 +33,6 @@
 
 .svg-a {
     width: 24px;
-}
-
-.svg-b {
-    width: 16px;
 }
 
 .div-search {
@@ -57,42 +58,42 @@
 }
 
 .span-search-b {
-    top: 56px;
+    top: 57px;
     visibility: hidden;
 }
 
 .span-search-c {
-    top: 86px;
+    top: 88px;
     visibility: hidden;
 }
 
 .span-search-d {
-    top: 116px;
+    top: 119px;
     visibility: hidden;
 }
 
 .span-search-e {
-    top: 146px;
+    top: 150px;
     visibility: hidden;
 }
 
 .span-search-f {
-    top: 176px;
+    top: 181px;
     visibility: hidden;
 }
 
 .span-search-g {
-    top: 206px;
+    top: 212px;
     visibility: hidden;
 }
 
 .span-search-h {
-    top: 236px;
+    top: 243px;
     visibility: hidden;
 }
 
 .span-search-i {
-    top: 266px;
+    top: 274px;
     visibility: hidden;
 }
 
@@ -153,8 +154,8 @@
     visibility: hidden;
     position: absolute;
     left: 132px;
-    top: 64px;
-    padding: 5px 0 0;
+    top: 65px;
+    padding: 4px 0 0;
     width: 721px;
     border: 1px solid #e5e5e5;
     border-top: transparent;
@@ -176,9 +177,9 @@
 }
 
 .link {
-    padding: 0 48px;
+    padding: 1px 48px;
     background-clip: padding-box;
-    height: 30px;
+    height: 31px;
     text-decoration: none;
     font-size: 16px;
     line-height: 31px;
@@ -200,7 +201,7 @@ strong {
     text-decoration: none;
     color: #949494;
     align-self: flex-end;
-    margin: 4px 21px 3px 0;
+    margin: 5px 21px 3px 0;
     letter-spacing: -0.15px;
 }
 
@@ -210,8 +211,8 @@ strong {
 
 .search-button {
     position: relative;
-    top: 11px;
-    right: 91px;
+    top: 12px;
+    right: 93px;
     background: transparent;
     border-style: none;
     cursor: pointer;
@@ -265,6 +266,97 @@ strong {
 */
 
 .nav-bottom {
+    height: 46px;
+    margin: 0 auto 0 152px;
+}
+
+.inside-bottom {
     display: flex;
     flex-direction: row;
+    width: 750px;
+    height: 100%;
+    margin: auto 0;
+}
+
+.bottom-link {
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 12px;
+    color: #707070;
+    font-size: 13px;
+    text-decoration: none;
+    border-width: 0;
+    cursor: pointer;
+}
+
+p.bottom-link {
+    padding: 0 8px;
+}
+
+.svg-b {
+    margin: 2px 5px 0 0;
+    width: 16px;
+    fill: #707070;
+}
+
+.all {
+    color: #4285F4;
+    margin-top: 3px;
+    margin-left: 2px;
+    padding-left: 10px;
+    border-bottom: 3px solid #4285F4;
+}
+
+.svg-more {
+    margin-right: 0px;
+}
+
+.settings {
+    margin-left: 95px;
+}
+
+.settings:active {
+    color: #4285F4;
+}
+
+.tools {
+    outline: none;
+    font-size: 13px;
+    margin-left: 8px;
+    border-width: 0;
+    background: white;
+    color: #707070;
+    cursor: pointer;
+}
+
+.tools:active {
+    margin-left: 7px;
+    color: #4285F4;
+}
+
+.maps:active, .maps:active .span-bottom .svg-maps {
+    color: #4285F4;
+    fill: #4285F4;
+}
+
+.news:active, .news:active .span-bottom .svg-news {
+    color: #4285F4;
+    fill: #4285F4;
+}
+
+.videos:active, .videos:active .span-bottom .svg-videos {
+    color: #4285F4;
+    fill: #4285F4;
+}
+
+.images:active, .images:active .span-bottom .svg-images {
+    color: #4285F4;
+    fill: #4285F4;
+}
+
+.more:active, .more:active .span-bottom .svg-more {
+    color: #4285F4;
+    fill: #4285F4;
 }
