@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    text-decoration: none;
 }
 
 /*
@@ -369,41 +370,132 @@ p.bottom-link {
 */
 
 main {
-    width: 654px;
     margin-left: 180px;
+    width: 654px;
 }
 
-/*
-.mn-dwn-arw {
-    border-color: #70757a transparent;
-    border-style: solid;
-    border-width: 5px 4px 0 4px;
+.paddings {
+    padding: 0 10px 0 16px;
 }
-*/
 
 .results-in-seconds {
-    background: rgba(66, 133, 244, 0.5);
     color: #707070;
 }
 
 .block-top {
-    background: rgba(66, 133, 244, 0.2);
     margin-top: 19px;
     height: 216px
 }
 
 .inside-block {
-    background: rgba(66, 133, 244, 0.5);
     border: 1px solid #e5e5e5;
     border-radius: 8px;
     height: 196px;
 }
 
-.block {
-    background: rgba(66, 133, 244, 0.5);
-    height: 116px;
-    margin-top: 27px;
+#bigger-text {
+    font-size: 16px;
+    line-height: 22px;
 }
+
+.victor-lf-div-flex {
+    display: flex;
+    margin-top: 23px;
+}
+
+.victor-lf-a {
+    color: #3f3f3f;
+    padding: 6px 0;
+}
+
+.victor-lf-span {
+    color: rgba(11, 0, 128, 0.836);
+    font-size: 20px;
+    line-height: 37px;
+}
+
+.victor-lf-span:hover {
+    text-decoration: underline;
+}
+
+.dwn-arw-div {
+    position: relative;
+    right: 51px;
+    top: 10px;
+}
+
+.dwn-arw {
+    border-color: hsl(210, 4%, 23%) transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+}
+
+.nfrmtn-lnks-div {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    margin-top: 2px;
+}
+
+.nfrmtn-lnks {
+    color: #707070;
+    font-size: 12px;
+}
+
+.qstn-mrk-svg {
+    fill: #949494;
+    height: 16px;
+    margin: 2px 8px 0 0;
+    width: 16px;
+}
+
+.ft-snp {
+    margin: 0 24px 2px 0;
+}
+
+.ft-snp:hover {
+    text-decoration: underline;
+}
+
+.xmtn-mrk-svg {
+    fill: #949494;
+    height: 14px;
+    margin: 2px 8px 2px 0;
+    width: 14px;
+}
+
+.fdbk {
+    margin: 0 18px 2px 0;
+}
+
+.fdbk:hover {
+    text-decoration: underline;
+}
+
+/**/
+
+.block {
+    height: 116px;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+.christine-27-div-flex {
+    display: flex;
+}
+
+#christine-27 {
+    padding-right: 5px;
+    margin-top: -1px;
+}
+
+.christine-27-p {
+    color: #3f3f3f;
+    line-height: 22px;
+    margin-top: -2px;
+}
+
+/**/
 
 .people-also-ask {
     background: rgba(66, 133, 244, 0.5);
