@@ -408,13 +408,13 @@ main {
     padding: 6px 0;
 }
 
-.victor-lf-span {
+.blck-lnk-style {
     color: rgba(11, 0, 128, 0.836);
     font-size: 20px;
     line-height: 37px;
 }
 
-.victor-lf-span:hover {
+.blck-lnk-style:hover {
     text-decoration: underline;
 }
 
@@ -472,8 +472,6 @@ main {
     text-decoration: underline;
 }
 
-/**/
-
 .block {
     height: 116px;
     margin-top: 30px;
@@ -484,37 +482,138 @@ main {
     display: flex;
 }
 
-#christine-27 {
+.christine-27 {
     padding-right: 5px;
     margin-top: -1px;
 }
 
-.christine-27-p {
+.lnk-dscr-p {
     color: #3f3f3f;
     line-height: 22px;
     margin-top: -2px;
 }
 
-/**/
-
 .people-also-ask {
-    background: rgba(66, 133, 244, 0.5);
     border: 1px solid #e5e5e5;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
     height: 223px;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    padding: 0;
 }
 
 .people-also-ask-feedback {
-    background: rgba(66, 133, 244, 0.2);
     height: 243px;
-    margin: 31px 0 27px 0;
+    margin: 28px 0 27px 0;
+}
+
+.ppl-ask-div-title {
+    border-bottom: 1px solid #e5e5e5;
+    height: 45px;
+    padding-left: 16px;
+}
+.ppl-ask-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+    height: 20%;
+    padding: 0 16px 0 16px;
+}
+
+.no-brd {
+    border: none;
+}
+
+.ppl-ask-h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.ppl-ask-p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.ppl-ask-arw {
+    fill: #707070;
+    height: 100%;
+    margin-top: 2px;
+    width: 24px;
+}
+
+.ppl-ask-lnk-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ppl-ask-lnk {
+    color: #707070;
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px 18px 0 0;
+}
+
+.ppl-ask-lnk:hover {
+    text-decoration: underline;
+}
+
+/**/
+
+.similar-blocks-div-flex {
+    padding-top: 3px;
+    display: flex;
+}
+
+.lnk-dscr-date {
+    color: #707070;
 }
 
 .similar-blocks {
-    background: rgba(66, 133, 244, 0.5);
     height: 97.7667px;
     margin-bottom: 27px;
+    padding-right: 54px;
 }
+
+
+.lnk-one {
+    margin-left: -79px;
+}
+
+.lnk-two {
+    margin-left: -213px;
+}
+
+.lnk-three {
+    margin-left: -231px;
+}
+
+.lnk-four {
+    margin-left: -395px;
+}
+
+.lnk-five {
+    margin-left: -276px;
+}
+
+.lnk-six {
+    margin-left: -364px;
+}
+
+.lnk-seven {
+    margin-left: -374px;
+}
+
+.lnk-eight {
+    margin-left: -391px;
+}
+
+/**/
 
 .related-search-a {
     background: rgba(66, 133, 244, 0.5);
